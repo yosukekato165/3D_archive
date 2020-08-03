@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae3ed56a-c614-45a0-bc4a-f52c5681faac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.js" afterDir="false" />
-    </list>
+    <list default="true" id="ae3ed56a-c614-45a0-bc4a-f52c5681faac" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +38,7 @@
       <workItem from="1596208321464" duration="2273000" />
       <workItem from="1596211239581" duration="210000" />
       <workItem from="1596212022330" duration="1475000" />
-      <workItem from="1596458786320" duration="4529000" />
+      <workItem from="1596458786320" duration="5412000" />
     </task>
     <servers />
   </component>
