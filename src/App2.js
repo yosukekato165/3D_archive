@@ -12,5 +12,5 @@ const App2 = () => {
         </>
     )
 }
-
+//todo: tomatos : tomato
 export default App2
