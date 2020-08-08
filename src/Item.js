@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import { Link } from "react-router-dom";
-import AppContext from './contexts/AppContext'
+import { AppContext } from './Router'
+// import list from './App'
 
 const Item = () => {
-    const { state } = useContext(AppContext)
+    const list = useContext(AppContext)
 
     const item = e => {
         const res = e.map((elm,i)=>
@@ -19,7 +20,7 @@ const Item = () => {
     }
     return (
         <>
-            {item(state)}
+            {item(list)}
         </>
     )
 
