@@ -5,7 +5,8 @@ import { Canvas, useFrame } from 'react-three-fiber'
 import { softShadows, MeshWobbleMaterial, OrbitControls } from 'drei'
 
 import { useSpring, a } from 'react-spring/three'
-// import { Link } from 'react-router-dom'
+import Logo from '../../components/Logo'
+import { Link } from 'react-router-dom'
 
 
 
@@ -33,6 +34,7 @@ const SpinningMesh = ({ position, args, color, speed }) => {
     return (
     <>
         <Canvas shadowMap colorManagement camera={{position: [-5, 2, 10], fov: 60}}>
+
         {/* <Link to='/'>Home</Link> */}
         <ambientLight intensity={0.3} />
         <directionalLight
@@ -64,6 +66,7 @@ const SpinningMesh = ({ position, args, color, speed }) => {
         <SpinningMesh position={[5, 1, -2]} color='pink' speed={6} />
             <OrbitControls />
         </Canvas>
+        <Logo/>
     </>
     );
 }

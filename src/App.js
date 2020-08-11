@@ -1,35 +1,21 @@
-import React, { useState, useEffect, useContext } from 'react'
-import style from './App.scss'
+import React from 'react'
+import './App.scss'
 import { Link } from 'react-router-dom'
-import { AppContext} from './Router'
-import Item from './Item'
+import Item from './components/item/Item'
+import Logo from './components/Logo'
+
 
 
 const App = () => {
 
-    // const list = useContext(AppContext);
-    //
-    // const item = e => {
-    //
-    //     const res = e.map((elm,i) =>
-    //         <li className="archive_item">
-    //             <Link to="./200727">
-    //                 <img src="" alt=""/>
-    //                 <h2>{e[i].title}</h2>
-    //                 <p>{e[i].date}</p>
-    //             </Link>
-    //         </li>
-    //     )
-    //     return res
-    // }
-
   return (
     <>
-      <Link to="/">Home</Link>
+      {/*<Link to="/">Home</Link>*/}
       <Link to="./App2">App2</Link>
-      <br/>
-      <Link to="./200727">ThreeBox</Link>
-      <main>
+      {/*<br/>*/}
+      {/*<Link to="./200727">ThreeBox</Link>*/}
+      <Logo />
+      <main className="main">
           <ul className="archive_list">
               <Item />
           </ul>
