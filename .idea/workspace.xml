@@ -20,19 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae3ed56a-c614-45a0-bc4a-f52c5681faac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/item/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/item/style.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Box/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Box/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/200727/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/200727/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/200727/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/200727/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item/style.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +77,8 @@
       <workItem from="1596458786320" duration="5412000" />
       <workItem from="1596545279062" duration="3125000" />
       <workItem from="1596864477298" duration="15356000" />
-      <workItem from="1597144898526" duration="3999000" />
+      <workItem from="1597144898526" duration="4844000" />
+      <workItem from="1597242255821" duration="1674000" />
     </task>
     <servers />
   </component>

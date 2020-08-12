@@ -3,6 +3,18 @@
   outline: none;
 }
 
+@font-face{
+  font-family: 'pertilt';
+  src: url('./fonts/pertilt.woff');
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: 'pertibd';
+  src: url('./fonts/pertibd.woff');
+  font-weight: bold;
+}
+
 html,
 body,
 #root {
