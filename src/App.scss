@@ -3,6 +3,18 @@
   outline: none;
 }
 
+@font-face{
+  font-family: 'pertilt';
+  src: url('./fonts/pertilt.woff');
+  font-weight: normal;
+}
+
+@font-face{
+  font-family: 'pertibd';
+  src: url('./fonts/pertibd.woff');
+  font-weight: bold;
+}
+
 html,
 body,
 #root {
@@ -11,7 +23,16 @@ body,
   margin: 0;
   padding: 0;
 }
-
-body {
-  background: #f1f4f8;
+.main {
+  width: 100%;
+  padding-top: 200px;
+}
+.archive_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }

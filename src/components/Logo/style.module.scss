@@ -1,0 +1,15 @@
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  z-index: 10000;
+  margin: 0;
+  font-size: 40px;
+  line-height: 1;
+  a {
+    mix-blend-mode: darken;
+    color: #323232;
+    font-family: pertilt;
+    font-weight: lighter;
+  }
+}
