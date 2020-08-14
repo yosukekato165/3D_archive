@@ -12,10 +12,10 @@
     }
     .archive_image_in {
       transform: scale(1.05);
-      transition: .6s;
+      transition: .5s cubic-bezier(0.41,-0.01,0.64,0.93);
     }
     .archive_desc {
-      background-color: rgba(44,48,58,1);
+      background-color: rgba(44,48,58,.8);
       box-shadow: 0 40px 40px rgba(0,0,0,.25);
       border-radius: 10px;
       transition: .6s;
@@ -38,7 +38,7 @@
   &_in {
     display:block;
     width: 100%;
-    transition: .6s;
+    transition: .5s cubic-bezier(0.41,-0.01,0.64,0.93);;
   }
 }
 .archive_desc {
@@ -57,7 +57,7 @@
   border-radius: 4px;
   color: #fff;
   background-color: rgba(44,48,58,0.6);
-  box-shadow: 0 4px 4px rgba(0,0,0,.25);
+  box-shadow: 0 4px 20px rgba(0,0,0,.25);
   transition: .8s;
 
   h2 {
