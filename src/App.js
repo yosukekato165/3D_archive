@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.scss'
 import { Link } from 'react-router-dom'
-import Item from './components/item/Item'
+import Index from './components/item'
 import Logo from './components/Logo'
 
 
@@ -17,7 +17,7 @@ const App = () => {
       <Logo />
       <main className="main">
           <ul className="archive_list">
-              <Item />
+              <Index />
           </ul>
       </main>
     </>

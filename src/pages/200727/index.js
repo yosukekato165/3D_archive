@@ -6,6 +6,7 @@ import { softShadows, MeshWobbleMaterial, OrbitControls } from 'drei'
 
 import { useSpring, a } from 'react-spring/three'
 import Logo from '../../components/Logo'
+import Title from '../../components/Title'
 import { Link } from 'react-router-dom'
 
 
@@ -66,7 +67,8 @@ const SpinningMesh = ({ position, args, color, speed }) => {
         <SpinningMesh position={[5, 1, -2]} color='pink' speed={6} />
             <OrbitControls />
         </Canvas>
-        <Logo/>
+        <Logo />
+        <Title title={'Three Box'} date={'20/20/11'} />
     </>
     );
 }

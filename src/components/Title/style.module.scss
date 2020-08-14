@@ -1,0 +1,23 @@
+.title {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  z-index: 10000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 450px;
+  border-bottom: 1px solid #333;
+  &_text {
+    margin: 0;
+    color: #323232;
+    font-size: 33px;
+    font-family: pertibd;
+    letter-spacing: .5px;
+  }
+  &_date {
+    margin: 0 0 9px 15px;
+    color: #323232;
+    font-size: 16px;
+  }
+}

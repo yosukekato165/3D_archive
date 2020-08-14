@@ -13,25 +13,25 @@ const Router = () => {
 
     const list = [
         {
-            title: 'OneBox',
+            title: 'one box',
             date: '20/07/01',
             path: `200727`,
             image: image
         },
         {
-            title: 'TwoBox',
+            title: 'Two Box',
             date: '20/07/20',
             path: '200727',
             image: image
         },
         {
-            title: 'ThreeBox',
+            title: 'Three Box',
             date: '20/07/24',
             path: '200727',
             image: image
         },
         {
-            title: 'FourBox',
+            title: 'Four Box',
             date: '20/07/24',
             path: '200727',
             image: image
